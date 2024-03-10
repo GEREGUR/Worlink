@@ -1,50 +1,50 @@
-import { Next, Vercel } from "@/public";
+import { Zeekr } from "@/assets";
 
 export const Slider = () => {
   return (
-    <div className="inline-flex h-[10vh] w-full flex-nowrap overflow-hidden border-b-2 border-t-2 border-black">
-      <ul className="animate-infinite-scroll flex w-full items-center justify-center py-2 md:justify-start [&_img]:max-w-none [&_li]:mx-8">
+    <div className="inline-flex h-[10vh] w-full flex-nowrap overflow-hidden border-y-2 border-white">
+      <ul className="scrollbar-hide flex w-full items-center justify-center overflow-x-auto py-2 md:justify-start [&_img]:max-w-none [&_li]:mx-8">
         <li>
-          <img className="cursor-pointer" src={Next} alt="junky" />
+          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
         </li>
         <li>
-          <img className="cursor-pointer" src={Vercel} alt="stain" />
+          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
         </li>
         <li>
-          <img className="cursor-pointer" src={Vercel} alt="mansion" />
+          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
         </li>
         <li>
-          <img className="cursor-pointer" src={Vercel} alt="ayne" />
+          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
         </li>
         <li>
-          <img className="cursor-pointer" src={Vercel} alt="kritika" />
+          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
         </li>
         <li>
-          <img className="cursor-pointer" src={Vercel} alt="bando" />
+          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
         </li>
         <li>
-          <img className="cursor-pointer" src={Vercel} alt="mustico" />
+          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
         </li>
         <li>
-          <img className="cursor-pointer" src={Vercel} alt="junky" />
+          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
         </li>
         <li>
-          <img className="cursor-pointer" src={Vercel} alt="stain" />
+          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
         </li>
         <li>
-          <img className="cursor-pointer" src={Vercel} alt="mansion" />
+          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
         </li>
         <li>
-          <img className="cursor-pointer" src={Vercel} alt="ayne" />
+          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
         </li>
         <li>
-          <img className="cursor-pointer" src={Vercel} alt="kritika" />
+          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
         </li>
         <li>
-          <img className="cursor-pointer" src={Vercel} alt="bando" />
+          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
         </li>
         <li>
-          <img className="cursor-pointer" src={Vercel} alt="mustico" />
+          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
         </li>
       </ul>
     </div>

@@ -5,7 +5,8 @@ export default function Home() {
   return (
     <main className="h-[100vh]">
       <Navbar />
-      <div className="pt-24">
+      <div className="h-[15vh] w-full bg-transparent"></div>
+      <div>
         <Slider />
       </div>
     </main>

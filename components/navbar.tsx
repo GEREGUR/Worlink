@@ -33,14 +33,14 @@ export const Navbar = () => {
   return (
     <nav className="fixed flex h-[10vh] w-full flex-row justify-between p-4 text-white">
       <div>
-        <h1 className="font-signature ml-2 text-5xl">
+        <h1 className="font-signature ml-2 mt-2 text-4xl">
           <a
             className="link-underline link-underline-black"
             href=""
             target="_blank"
             rel="noreferrer"
           >
-            Logo
+            Worlink
           </a>
         </h1>
       </div>
@@ -60,7 +60,6 @@ export const Navbar = () => {
           </li>
         ))}
       </ul>
-      {/* Navigation links will be rendered here */}
     </nav>
   );
 };
