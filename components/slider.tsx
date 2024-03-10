@@ -1,4 +1,4 @@
-import { Zeekr } from "@/assets";
+import Zeekr from "../assets/zeekr.svg";
 
 export const Slider = () => {
   return (
