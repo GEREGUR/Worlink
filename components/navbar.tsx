@@ -65,14 +65,11 @@ export const Navbar = () => {
         ))}
       </ul>
       {nav && (
-        <ul
-          className="absolute right-0 top-0 flex h-screen w-[60vh] flex-col items-center justify-center bg-gradient-to-b from-black to-red-400 text-slate-100 transition-all duration-300 ease-out hover:scale-105 hover:text-white md:hidden"
-          onClick={() => setNav((prev) => !prev)}
-        >
+        <ul className="absolute right-0 top-0 flex h-screen w-[60vh] flex-col items-center justify-center bg-[#240A0B] text-slate-100 transition-all duration-300 ease-out  md:hidden">
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="cursor-pointer px-4 py-6 text-4xl capitalize"
+              className="cursor-pointer px-4 py-6 text-4xl capitalize hover:scale-105 hover:text-white"
             >
               <Link onClick={() => setNav(!nav)} href={link}>
                 {link}

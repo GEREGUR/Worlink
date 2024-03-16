@@ -1,50 +1,135 @@
 import Zeekr from "../assets/zeekr.svg";
+import Image from "next/image";
 
 export const Slider = () => {
   return (
     <div className="inline-flex h-[10vh] w-full flex-nowrap overflow-hidden border-y-2 border-white">
       <ul className="scrollbar-hide flex w-full items-center justify-center overflow-x-auto py-2 md:justify-start [&_img]:max-w-none [&_li]:mx-8">
         <li>
-          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
+          <Image
+            className="cursor-pointer"
+            width={32}
+            height={32}
+            src={Zeekr}
+            alt="zeekr"
+          />
         </li>
         <li>
-          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
+          <Image
+            className="cursor-pointer"
+            width={32}
+            height={32}
+            src={Zeekr}
+            alt="zeekr"
+          />
         </li>
         <li>
-          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
+          <Image
+            className="cursor-pointer"
+            width={32}
+            height={32}
+            src={Zeekr}
+            alt="zeekr"
+          />
         </li>
         <li>
-          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
+          <Image
+            className="cursor-pointer"
+            width={32}
+            height={32}
+            src={Zeekr}
+            alt="zeekr"
+          />
         </li>
         <li>
-          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
+          <Image
+            className="cursor-pointer"
+            width={32}
+            height={32}
+            src={Zeekr}
+            alt="zeekr"
+          />
         </li>
         <li>
-          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
+          <Image
+            className="cursor-pointer"
+            width={32}
+            height={32}
+            src={Zeekr}
+            alt="zeekr"
+          />
         </li>
         <li>
-          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
+          <Image
+            className="cursor-pointer"
+            width={32}
+            height={32}
+            src={Zeekr}
+            alt="zeekr"
+          />
         </li>
         <li>
-          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
+          <Image
+            className="cursor-pointer"
+            width={32}
+            height={32}
+            src={Zeekr}
+            alt="zeekr"
+          />
         </li>
         <li>
-          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
+          <Image
+            className="cursor-pointer"
+            width={32}
+            height={32}
+            src={Zeekr}
+            alt="zeekr"
+          />
         </li>
         <li>
-          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
+          <Image
+            className="cursor-pointer"
+            width={32}
+            height={32}
+            src={Zeekr}
+            alt="zeekr"
+          />
         </li>
         <li>
-          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
+          <Image
+            className="cursor-pointer"
+            width={32}
+            height={32}
+            src={Zeekr}
+            alt="zeekr"
+          />
         </li>
         <li>
-          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
+          <Image
+            className="cursor-pointer"
+            width={32}
+            height={32}
+            src={Zeekr}
+            alt="zeekr"
+          />
         </li>
         <li>
-          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
+          <Image
+            className="cursor-pointer"
+            width={32}
+            height={32}
+            src={Zeekr}
+            alt="zeekr"
+          />
         </li>
         <li>
-          <img className="cursor-pointer" src={Zeekr} alt="zeekr" />
+          <Image
+            className="cursor-pointer"
+            width={32}
+            height={32}
+            src={Zeekr}
+            alt="zeekr"
+          />
         </li>
       </ul>
     </div>
