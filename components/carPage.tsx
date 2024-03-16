@@ -10,9 +10,9 @@ const car = {
 
 export const CarPage = () => {
   return (
-    <div className="flex w-full flex-col items-center justify-center text-white">
-      <h1>{car.title}</h1>
-      <h2>{car.model}</h2>
+    <div className="flex w-full flex-col items-center justify-center text-xl text-white">
+      <h1>{car.title.toUpperCase()}</h1>
+      <h2>{car.model.toUpperCase()}</h2>
       <span>{car.price}</span>
       <ul className="grid grid-cols-2 gap-4">
         <li>
@@ -22,7 +22,7 @@ export const CarPage = () => {
           <p>{car.year}</p>
         </li>
         <li>
-          <p>{car.color}</p>
+          <p>{car.color.toUpperCase()}</p>
         </li>
         <li>
           <p>{car.engine}</p>
